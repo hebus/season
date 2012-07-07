@@ -16,6 +16,7 @@
 
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
+@synthesize cardImageView = _cardImageView;
 
 #pragma mark - Managing the detail item
 
@@ -36,6 +37,8 @@
     if (self.detailItem) {
         self.title = [self.detailItem objectForKey:@"name"];
         self.detailDescriptionLabel.text = [self.detailItem objectForKey:@"effet"];
+        NSString *path = [[_detailItem objectForKey:@"id"] stringByAppendingString:@".png"];
+        self.cardImageView.image = [UIImage imageNamed:path];
     }
 }
 
