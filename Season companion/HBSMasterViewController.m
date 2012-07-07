@@ -74,6 +74,7 @@
 
     NSDictionary *object = [_objects objectAtIndex:indexPath.row];
     cell.textLabel.text = [object objectForKey:@"name"];
+    cell.detailTextLabel.text = [[object objectForKey:@"id"] stringByAppendingString:@" / 50"] ;
     NSString *path = [[object objectForKey:@"id"] stringByAppendingString:@".png"];
     cell.imageView.image = [UIImage imageNamed:path];
     return cell;

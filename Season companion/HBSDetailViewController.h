@@ -12,7 +12,8 @@
 
 @property (strong, nonatomic) NSDictionary *detailItem;
 
-@property (strong, nonatomic) IBOutlet UITextView *detailDescriptionLabel;
-@property (strong,nonatomic)IBOutlet UIImageView *cardImageView;
+@property (strong, nonatomic)   IBOutlet UITextView     *detailDescriptionLabel;
+@property (strong,nonatomic)    IBOutlet UIImageView    *cardImageView;
+@property (strong,nonatomic)    IBOutlet UILabel        *cardNumberLabel;
 
 @end

@@ -6,142 +6,234 @@
 {id="4";name="Amulette d’eau";effet="Au moment où vous invoquez l’Amulette d’eau, recevez 4 énergies de votre choix en provenance du stock et placez-les sur l’Amulette d’eau.
 Les énergies placées sur l’Amulette d’eau ne sont pas considérées comme faisant partie de votre réserve. Elles ne sont donc pas affectées par les effets du Coffret merveilleux, de la Corne du mendiant, de l’Elémentaire d’air, de la Lanterne de Xidit, de Lewis Grisemine, de la Potion de rêves, de la Potion de vie et du Traité maudit d’Arus.";},
 {id="5";name="Balance d’Ishtar";effet="Pour activer la Balance d’Ishtar, défaussez 4 énergies identiques en provenance de votre réserve, afi n de les cristalliser en 12 cristaux. Avancez alors votre pion du sorcier de 12 cases sur la piste des cristaux.
+
 La Balance d’Ishtar peut être activée même si vous ne disposez pas de l’action de cristallisation.
+
 Si vous possédez une Bourse d’Io, recevez 16 cristaux au lieu de 12 à chaque fois que vous activez la Balance d’Ishtar.";},
 {id="6";name="Bâton du printemps";effet="À chaque fois que vous invoquez une carte pouvoir, avancez votre pion du sorcier de 3 cases sur la piste des cristaux.";},
 {id="7";name="Bottes temporelles";effet="Les Bottes temporelles n’ont pas de coût d’invocation et peuvent donc être invoquées gratuitement.
-Au moment où vous invoquez les Bottes temporelles, avancez ou reculez d’une à trois cases le marqueur saison sur la roue des saisons.
+
+		Au moment où vous invoquez les Bottes temporelles, avancez ou reculez d’une à trois cases le marqueur saison sur la roue des saisons.
+
 Si les Bottes temporelles font reculer le marqueur saison de l’hiver à l’automne :
 - reculez le marqueur année d’une case.
 - conservez toutes les cartes pouvoir que vous avez en main.
+
 Si les Bottes temporelles vous amènent à changer de saison (en avançant ou en reculant le marqueur saison), les cartes affectées par le changement de saison comme Figrim l’avaricieux ou le Sablier du temps font immédiatement effet.
+
 Si les Bottes temporelles amènent à dépasser la fin de la troisième année de jeu en cours de manche, terminez la manche en cours avant de mettre un terme à la partie.";},
 {id="8";name="Bourse d’Io";effet="À chaque fois que vous cristallisez une énergie, avancez votre pion du sorcier d’une case sur la piste des cristaux et ce, en plus du gain de cristaux obtenu grâce à la cristallisation.
+
 L’effet de la Bourse d’Io affecte les effets de la Balance d’Ishtar et de la Potion de vie.
+
 À l’inverse, l’effet de la Bourse d’Io n’a aucun impact sur l’effet du Chaudron glouton et du Crâne de dragon.";},
-{id="9";name="Calice divin";effet="Au moment où vous invoquez le Calice divin, piochez 4 cartes pouvoir et invoquez-en une gratuitement, sans payer son coût d’invocation. Cette carte pouvoir ainsi invoquée ne déclenche pas l’effet de l’Arcano Sangsue, du Bâton du printemps et du Vase oublié d’Yjang. Placez les 3 cartes restantes dans la défausse.
+{id="9";name="Calice divin";effet="Au moment où vous invoquez le Calice divin, piochez 4 cartes pouvoir et invoquez-en une gratuitement, sans payer son coût d’invocation. 
+
+Cette carte pouvoir ainsi invoquée ne déclenche pas l’effet de l’Arcano Sangsue, du Bâton du printemps et du Vase oublié d’Yjang. Placez les 3 cartes restantes dans la défausse.
+
 Vous devez posséder une jauge d’invocation suffisante pour pouvoir invoquer cette nouvelle carte. Dans le cas contraire, la carte piochée est défaussée.";},
 {id="10";name="Syllas le fidèle";effet="Au moment où vous invoquez Syllas le fidèle, chaque adversaire doit sacrifier une carte pouvoir en jeu qu’il possède.";},
 {id="11";name="Figrim l’Avaricieux";effet="Suivant que vous jouez à 2, 3 ou 4 joueurs, le coût d’invocation de Figrim l’avaricieux n’est pas le même.
-À chaque fois que l’on change de saison, tous vos adversaires doivent vous donner 1 cristal. Ils reculent d’une case leur pion du sorcier sur la piste des cristaux. Avancez votre pion du sorcier sur la même piste d’autant de cases que de cristaux ainsi gagnés.
+
+À chaque fois que l’on change de saison, tous vos adversaires doivent vous donner 1 cristal. Ils reculent d’une case leur pion du sorcier sur la piste des cristaux. 
+
+Avancez votre pion du sorcier sur la même piste d’autant de cases que de cristaux ainsi gagnés.
+
 Un adversaire n’ayant aucun cristal n’est pas concerné par l’effet de Figrim l’Avaricieux.";},
 {id="12";name="Naria la prophétesse";effet="Au moment où vous invoquez Naria la prophétesse, piochez autant de cartes que de joueurs (vous y compris). Choisissez-en une et placez la dans votre main. Ensuite, parmi les cartes restantes, distribuez-en une de votre choix à chacun de vos adversaires.";},
 {id="13";name="Coffret merveilleux";effet="À chaque fois que vous possédez 4 énergies ou plus dans votre réserve à la fin de la manche, recevez 3 cristaux. Avancez alors de 3 cases votre pion du sorcier sur la piste des cristaux.
+
 L’effet du Coffret merveilleux prend en compte les énergies placées sur le Grimoire ensorcelé qui font partie de votre réserve. A l’inverse, les énergies présentes sur l’Amulette d’eau ou le Chaudron glouton ne font pas partie de votre réserve et n’affectent donc pas le Coffret merveilleux.";},
 {id="14";name="Corne du mendiant";effet="À chaque fois que vous possédez 1 énergie ou moins dans votre réserve à la fin de la manche, recevez 1 énergie de votre choix en provenance du stock et placez-la dans votre réserve.
+
 L’effet de la Corne du mendiant prend en compte les énergies placées sur le Grimoire ensorcelé, qui font partie de votre réserve. À l’inverse, les énergies présentes sur l’Amulette d’eau ou le Chaudron glouton ne font pas partie de votre réserve et n’affectent pas la Corne du mendiant.";},
 {id="15";name="Dé de la malice";effet="Le Dé de la malice n’a pas de coût d’invocation et peut donc être invoqué gratuitement.
+
 À chaque fois que vous activez le Dé de la malice, relancez le dé des saisons que vous avez choisi et ce, avant d’avoir effectué ses actions. Ne prenez en compte que le nouveau dé pour effectuer vos actions du tour.
+
 Vous recevez 2 cristaux chaque fois que vous activez l’effet de votre Dé de la malice.
+
 Si vous possédez 2 Dés de la malice, vous pouvez utiliser les deux à la suite si les actions de vos 2 premiers dés ne vous conviennent pas. Recevez alors 4 cristaux.";},
 {id="16";name="Kairn le destructeur";effet="Pour activer Kairn le destructeur, défaussez une énergie de votre choix en provenance de votre réserve. Chaque adversaire recule alors de 4 cases son pion du sorcier sur la piste des cristaux.";},
 {id="17";name="Amsug Longcoup";effet="Au moment où vous invoquez Amsug Longcoup, chaque joueur (vous y compris) renvoie dans sa main l’une de ses cartes objet magique déjà en jeu.
+
 Un joueur ne possédant pas d’objet magique invoqué n’est pas concerné par l’effet d’Amsug Longcoup.";},
 {id="18";name="Grimoire ensorcelé";
 effet="Au moment où vous invoquez le Grimoire ensorcelé, recevez 2 énergies de votre choix en provenance du stock, que vous placez dans votre réserve.
+
 Tant que le Grimoire ensorcelé est en jeu, il augmente la capacité de votre réserve, lui permettant de stocker jusqu’à 10 énergies au lieu de 7.
-Les énergies placées sur le Grimoire ensorcelé sont considérées comme faisant partie de votre réserve. Elles sont donc affectées par l’effet du Coffret merveilleux, de la Corne du mendiant, de l’Elémentaire d’air, de la Lanterne de Xidit, de Lewis Grisemine, de la Potion de rêves, de la Potion de vie et du Traité maudit d’Arus.
+
+Les énergies placées sur le Grimoire ensorcelé sont considérées comme faisant partie de votre réserve. Elles sont donc affectées par l’effet du Coffret merveilleux, de la 
+Corne du mendiant, de l’Elémentaire d’air, de la Lanterne de Xidit, de Lewis Grisemine, de la Potion de rêves, de la Potion de vie et du Traité maudit d’Arus.
+
 Il est possible à tout moment de déplacer les énergies présentes sur votre Grimpoire ensorcelé vers votre réserve et vice-versa.
+
 Posséder deux Grimoires ensorcelés ne permet pas d’avoir jusqu’à 13 énergies dans sa réserve. La limite est de 10 énergies maximum. Un joueur ne peut donc pas entreposer d’autres énergies sur le deuxième Grimoire ensorcelé.";},
 {id="19";name="Heaume de Ragfield";effet="Si vous êtes le joueur ayant en jeu strictement le plus de cartes pouvoir à la fin de la partie, avancez votre pion du sorcier de 20 cases sur la piste des cristaux.";},
 {id="20";name="Main de la fortune";effet="À chaque fois que vous invoquez une carte pouvoir, le coût de cette dernière est réduit d’1 énergie de votre choix. Le coût des prochaines cartes invoquées ne peut néanmoins être inférieur à 1 énergie.
+
 La Main de la fortune ne diminue en aucun cas les coûts d’activation de vos cartes pouvoir (comme celui de l’Orbe de cristal par exemple).
+
 La Main de la fortune affecte le coût d’invocation de l’Amulette élémentaire.";},
 {id="21";name="Lewis Grisemine";effet="Au moment où vous invoquez Lewis Grisemine, recevez en provenance du stock exactement le même nombre et le même type d’énergies que l’adversaire de votre choix possède dans sa réserve. Placez les énergies ainsi reçues dans votre réserve.
+
 Les énergies copiées chez un adversaire ne sont pas volées, ce dernier les conserve.
+
 Lewis Grisemine ne copie pas les énergies placées sur l’Amulette d’eau ou le Chaudron glouton. En revanche, il peut copier les énergies placées sur un Grimoire ensorcelé.";},
 {id="22";name="Cube runique d’Eolis";effet="Le Cube runique d’Eolis n’a aucun effet mais rapporte 30 points de prestige en fin de partie.";},
 {id="23";name="Potion de puissance";effet="Pour activer la Potion de puissance, sacrifiez-la afin de piocher une carte pouvoir et d’avancer de 2 cases votre pion du sorcier sur votre jauge d’invocation.
+
 Vous êtes obligé de conserver en main la carte pouvoir piochée. En aucun cas vous ne pouvez la défausser.";},
 {id="24";name="Potion de rêves";
 effet="Pour activer la Potion de rêves, sacrifiez-la et défaussez toutes vos énergies afin d’invoquer gratuitement une carte pouvoir de votre main.
+
 Si un joueur ne possède aucune énergie, il peut utiliser la Potion de rêves.
+
 Si un joueur active la Potion de rêves, les énergies placées sur l’Amulette d’eau ou sur le Chaudron glouton ne sont pas défaussées, au contraire des énergies placées sur le Grimoire ensorcelé.
+
 La carte invoquée par la Potion de rêves n’est pas affectée par les effets de l’Arcano Sangsue, du Bâton de printemps et du Vase oublié d’Yjang.";},
 {id="25";name="Potion de savoir";effet="Pour activer la Potion de savoir, sacrifiez-la afin de recevoir 5 énergies de votre choix en provenance du stock. Placez ces énergies dans votre réserve.";},
 {id="26";name="Potion de vie";effet="Pour activer la Potion de vie, sacrifiez-la afin de cristalliser chacune de vos énergies en 4 cristaux. Avancez votre pion du sorcier d’autant de cases que nécessaire sur la piste des cristaux.
+
 On peut activer la Potion de vie sans posséder l’action de cristallisation.
+
 Les énergies placées sur l’Amulette d’eau ou le Chaudron glouton ne sont pas affectées par l’effet de la Potion de vie, au contraire des énergies placées sur le Grimoire ensorcelé.
+
 On ne peut pas continuer à cristalliser après avoir activé la Potion de vie.
+
 La Potion de vie est affectée par l’effet de la Bourse d’Io.";},
 {id="27";name="Sablier du temps";effet="À chaque fois que l’on change de saison, recevez une énergie de votre choix en provenance du stock. Placez l’énergie dans votre réserve.
+
 Si un changement de saison a lieu, recevez votre énergie à la fin de la manche lors de laquelle le changement de saison a lieu.";},
 {id="28";name="Sceptre de grandeur";effet="Au moment où vous invoquez le Sceptre de grandeur, avancez de 3 cases votre pion du sorcier sur la piste des cristaux pour chaque autre objet magique en jeu que vous possédez.
+
 Si vous invoquez un deuxième Sceptre de grandeur, le premier Sceptre de grandeur (que vous possédez) compte dans le décompte des objets magiques en jeu.";},
 {id="29";name="Statue bénie d’Olaf";effet="Au moment où vous invoquez la Statue bénie d’Olaf, avancez votre pion du sorcier de 20 cases sur la piste des cristaux.";},
 {id="30";name="Vase oublié d’Yjang";effet="À chaque fois que vous invoquez une carte pouvoir, recevez une énergie de votre choix en provenance du stock. Placez cette énergie dans votre réserve.
+
 L’effet du Vase oublié d’Yjang n’affecte que les cartes pouvoir invoquées depuis la main du joueur. Les cartes pouvoir invoquées par l’intermédiaire d’autres cartes comme le Calice divin, l’Orbe de cristal ou la Potion de rêves ne vous rapportent donc aucune énergie.";},
 {id="31";name="Amulette élémentaire";effet="Chaque type d’énergie est associé à un effet particulier qui se déclenche si ce type d’énergie est inclus et payé lors de l’invocation de la carte.
+
 Au moment où vous invoquez l’Amulette élémentaire, si vous payez une énergie d’eau, recevez 2 énergies de votre choix issues du stock et placez-les dans votre réserve.
+
 Au moment où vous invoquez l’Amulette élémentaire, si vous payez une énergie de terre, avancez votre pion du sorcier de 5 cases sur la piste des cristaux.
+
 Au moment où vous invoquez l’Amulette élémentaire, si vous payez une énergie de feu, piochez une carte pouvoir et ajoutez-la à votre main. Vous ne pouvez pas choisir de défausser cette carte après l’avoir piochée.
+
 Au moment où vous invoquez l’Amulette élémentaire, si vous payez une énergie d’air, augmentez votre jauge d’invocation de +1.
+
 On peut inclure les 4 types d’énergie dans le coût d’invocation de l’Amulette élémentaire si l’on souhaite disposer des 4 effets. Cependant, il est impossible de payer plusieurs fois un même type d’énergie pour bénéficier plusieurs fois d’un même effet.
+
 L’Amulette élémentaire bénéficie de la réduction d’énergie offerte par la Main de la fortune. Il est donc possible d’obtenir 2 effets différents en ne payant qu’une seule énergie.
+
 Si l’Amulette élémentaire est invoquée par l’intermédiaire du Calice Divin, de la Potion de rêves ou de l’Orbe de cristal, faites comme si vous aviez payé les 4 types d’énergies dans son coût d’invocation.";},
 {id="32";name="Arbre de lumière";effet="Pour activer l’Arbre de lumière, vous pouvez au choix défausser 3 cristaux pour recevoir 1 énergie de votre choix en provenance du stock ou défausser 1 énergie pour obtenir l’action de cristallisation.
+
 Lors d’un même tour, on ne peut pas utiliser les deux effets d’activation de l’Arbre de lumière, puisqu’activer une carte pouvoir la fait s’incliner.";},
 {id="33";name="Arcano sangsue";effet="Suivant que vous jouez à 2, 3 ou 4 joueurs, le coût d’invocation de l’Arcano sansgue n’est pas le même.
+
 Avant de procéder à l’invocation d’une carte pouvoir, un adversaire doit d’abord vous donner 1 cristal. Il recule d’1 case son pion du sorcier sur la piste des cristaux, tandis que vous avancez le vôtre d’une case. Si un adversaire ne peut pas payer, il ne peut alors pas invoquer sa carte pouvoir.
+
 L’effet de l’Arcano sangsue n’affecte que les cartes pouvoir invoquées depuis la main du joueur. Les joueurs invoquant des cartes pouvoir par l’intermédiaire
 d’autres cartes comme le Calice divin, l’Orbe de cristal ou la Potion de rêves ne doivent pas donner 1 cristal au possesseur de l’Arcano sangsue.";},
 {id="34";name="Orbe de cristal";effet="Pour activer l’Orbe de cristal, vous pouvez :
 - soit regarder la première carte pouvoir de la pioche puis la reposer sur le dessus de la pioche ou bien défausser 4 énergies de votre réserve pour l’invoquer gratuitement si elle vous intéresse.
 - soit reculer de 3 cases votre pion du sorcier sur la piste des cristaux pour mettre la première carte pouvoir de la pioche à la défausse.
+
 Le coût d’invocation des cartes invoquées par l’Orbe de cristal n’a pas à être payé. Cependant il faut disposer d’une jauge d’invocation suffi sante.
+
 Les cartes invoquées par l’Orbe de cristal ne sont pas affectées par les effets de l’Arcano Sangsue, du Bâton de printemps ou du Vase oublié d’Yjang.
+
 Lors d’un même tour, on ne peut pas utiliser les deux effets d’activation de l’Orbe de cristal puisqu’activer une carte pouvoir la fait s’incliner.";},
 {id="35";name="Chaudron glouton";effet="Le Chaudron glouton n’a pas de coût d’invocation et peut donc être invoqué gratuitement.
+
 Lors de chacun de vos tours, vous pouvez placer une énergie de votre réserve sur le Chaudron glouton.
+
 Tant qu’une énergie est placée sur le Chaudron glouton, elle ne peut pas être utilisée.
+
 Lorsque le Chaudron glouton reçoit sa 7ème énergie, son effet s’applique immédiatement : sacrifi ez-le, placez les énergies du Chaudron glouton dans votre réserve et avancez votre pion du sorcier de 15 cases sur la piste des cristaux.
+
 Les énergies placées sur le Chaudron glouton ne sont pas considérées comme faisant partie de votre réserve. Elles ne sont donc pas affectées par l’effet du Coffret merveilleux, de la Corne du mendiant, de l’Elémentaire d’air, de la Lanterne de Xidit, de Lewis Grisemine, de la Potion de rêves, de la Potion de vie et du Traité maudit d’Arus.
+
 Si un joueur possède déjà des énergies dans sa réserve quand le Chaudron glouton est sacrifi é, ce même joueur doit, parmi toutes ses énergies, n’en garder que 7 et ce, avant de faire toute autre action.";},
 {id="36";name="Couronne vampirique";effet="Au moment où vous invoquez la Couronne vampirique, piochez ou défaussez une carte pouvoir. Recevez autant d’énergies du stock que le nombre de points de prestige possédés par la carte piochée ou défaussée. Placez ces énergies dans votre réserve.
+
 Si l’on choisit de piocher une carte pour réaliser l’effet de la Couronne vampirique, on doit conserver la carte piochée.
+
 Vous devez révéler aux autres joueurs la carte piochée ou défaussée.
+
 Si la carte piochée ou défaussée n’offre aucun point de prestige ou des points de prestige négatifs, le joueur ne reçoit aucune énergie.";},
 {id="37";name="Crâne de dragon";effet="Pour activer le Crâne de dragon, sacrifi ez 3 cartes pouvoir afin d’avancer de 15 cases votre pion du sorcier sur la piste des cristaux.
+
 L’effet du Crâne de dragon n’est pas affecté par la Bourse d’Io.";},
 {id="38";name="Démon d’Argos";effet="Au moment où vous invoquez le Démon d’Argos, chaque adversaire recule d’une case son pion du sorcier sur sa jauge d’invocation et pioche une carte pouvoir. Résolvez cette action dans l’ordre du tour de jeu.
+
 La carte pouvoir piochée ne peut pas être défaussée.
-Après résolution de l’effet du Démon d’Argos, les joueurs ayant trop de cartes pouvoir en jeu par rapport à leur jauge d’invocation n’ont pas à sacrifier de cartes. Cependant, il leur faudra remonter d’au moins deux cases leur jauge d’invocation s’ils souhaitent invoquer une nouvelle carte par la suite.";},
+
+Après résolution de l’effet du Démon d’Argos, les joueurs ayant trop de cartes pouvoir en jeu par rapport à leur jauge d’invocation n’ont pas à sacrifier de cartes. 
+
+Cependant, il leur faudra remonter d’au moins deux cases leur jauge d’invocation s’ils souhaitent invoquer une nouvelle carte par la suite.";},
 {id="39";name="Titus Beauregard";effet="Suivant que vous jouez à 2, 3 ou 4 joueurs, le coût d’invocation de Titus Beauregard n’est pas le même.
+
 À la fin de la manche, chaque adversaire doit vous donner 1 cristal. Avancez votre pion du sorcier d’autant de cases que de cristaux reçus. Chaque adversaire diminue d’une case son pion du sorcier sur la piste des cristaux.
+
 Si un adversaire n’a plus de cristal et ne peut pas vous en donner, appliquez l’effet de Titus Beauregard seulement sur les adversaires pouvant payer puis, à la fin de la manche, sacrifi ez Titus Beauregard.";},
 {id="40";name="Elémentaire d’air";effet="Au moment où vous invoquez l’Elémentaire d’air, tous vos adversaires transforment toutes les énergies de leur réserve en énergie d’air.
+
 Les énergies placées sur le Grimoire ensorcelé font partie de la réserve et sont également affectées par l’effet de l’Elémentaire d’air. À l’inverse, les énergies placées sur l’Amulette d’eau et le Chaudron glouton ne font pas partie de la réserve et ne sont donc pas affectées par l’effet.";},
 {id="41";name="Fées chapardeuses";effet="Suivant que vous jouez à 2, 3 ou 4 joueurs, le coût d’invocation des Fées chapardeuses n’est pas le même.
+
 L’effet des Fées chapardeuses ne s’applique que si un joueur active l’une de ses cartes pouvoir. Cela ne concerne pas les cartes pouvoir à effet d’arrivée en jeu ou à effet permanent.
+
 À chaque fois qu’un adversaire active l’une de ses cartes pouvoir, avancez votre pion du sorcier de 2 cases sur la piste des cristaux, tandis que cet adversaire recule d’une case son pion du sorcier sur cette même piste.
+
 L’un des cristaux gagnés provient des cristaux du joueur ayant activé une carte à effet d’activation.
+
 Le deuxième cristal reçu n’est pas donné par l’adversaire.
+
 Si un adversaire n’a plus de cristal lorsqu’il utilise une carte à effet d’activation, vous ne recevez pas de cristal de sa part ; cependant, cet adversaire peut activer sa carte pouvoir. Vous recevez tout de même le cristal supplémentaire.";},
 {id="42";name="Traité maudit d’Arus";effet="Au moment où vous invoquez le Traité maudit d’Arus, vous recevez 2 énergies de votre choix en provenance du stock, que vous placez dans votre réserve. Avancez votre pion du sorcier d’une case sur votre jauge d’invocation. Avancez votre pion du sorcier de 10 cases sur la piste des cristaux.
+
 Si vous sacrifiez le Traité maudit d’Arus, défaussez toutes vos énergies placées dans votre réserve, celles sur le Grimoire ensorcelé également.
+
 Les énergies placées sur l’Amulette d’eau et le Chaudron glouton ne sont pas affectées.
+
 Le Traité maudit d’Arus possède des points de prestige négatifs.";},
 {id="43";name="Idole du familier";effet="Lorsque vous activez l’Idole du familier, avancez votre pion du sorcier sur la piste des cristaux d’autant de cases que le nombre de familiers en jeu que vous possédez.";},
-{id="44";name="Kriss nécrotique";effet="Pour activer le Kriss nécrotique, défaussez une carte familier de votre main ou sacrifiez l’une de vos cartes familier en jeu. Recevez et placez alors dans votre réserve 4 énergies de votre choix en provenance du stock.";},
+{id="44";name="Kriss nécrotique";effet="Pour activer le Kriss nécrotique, défaussez une carte familier de votre main ou sacrifiez l’une de vos cartes familier en jeu. 
+
+Recevez et placez alors dans votre réserve 4 énergies de votre choix en provenance du stock.";},
 {id="45";name="Lanterne de Xidit";effet="À la fin de la partie, chaque énergie placée dans votre réserve vous rapporte 3 cristaux. Avancez d’autant de cases que nécessaire votre pion du sorcier sur la piste des cristaux.
+
 Les énergies placées sur le Grimoire ensorcelé font partie de votre réserve. Elles vous rapportent donc chacune 3 cristaux.
+
 Les énergies placées sur l’Amulette d’eau et le Chaudron glouton ne font pas partie de votre réserve et ne vous rapportent donc pas de cristaux supplémentaires en fin de partie.";},
 {id="46";name="Coffre scellé d’Urm";effet="À la fin de la partie, avancez de 20 cases votre pion du sorcier sur la piste des cristaux si vous ne possédez aucun familier en jeu.
+
 Posséder une carte pouvoir familier dans votre main n’annule pas l’effet du Coffre scellé d’Urm.";},
 {id="47";name="Miroir des saisons";effet="Pour activer le Miroir des saisons, diminuez de « X » case(s) votre pion du sorcier sur la piste des cristaux. Transformez alors « X » énergie(s) identique(s) de votre réserve (que vous défaussez) en « X » énergie(s) identique(s) d’un autre type issues du stock.
 «X» correspond au nombre de cristaux que le joueur paye pour activer le miroir des saisons. Si le joueur paye 3 cristaux, il pourra échanger 3 énergies d’un même type de sa réserve contre 3 énergies identiques d’un autre type en provenance du stock.
 «X » peut être égal à 1.";},
 {id="48";name="Pendentif de Ragnor";effet="Au moment où vous invoquez le Pendentif de Ragnor, recevez une énergie de votre choix en provenance du stock pour chaque autre objet magique en jeu que vous possédez. Placez la ou les énergie(s) reçue(s) dans votre réserve.
+
 Si vous invoquez un deuxième Pendentif de Ragnor, le premier Pendentif de Ragnor que vous possédez compte dans le décompte des objets magiques en jeu.";},
 {id="49";name="Sid Ombrenuit";effet="Suivant que vous jouez à 2, 3 ou 4 joueurs, le coût d’invocation de Sid Ombrenuit n’est pas le même.
+
 Au moment où vous invoquez Sid Ombrenuit, si vous êtes le joueur qui possède le pion du sorcier le plus avancé sur la piste des cristaux, volez à chaque adversaire 5 cristaux. Avancez alors votre pion du sorcier sur la piste des cristaux d’autant de cases que de cristaux volés. Chacun de vos adversaires recule
 son pion du sorcier de 5 cases sur la piste des cristaux. 
 Si au moins un joueur a autant, voir plus de cristaux que vous, vous ne volez aucun cristal à vos adversaires.
-Si un joueur ne possède plus de cristal, Sid Ombrenuit ne peut pas lui voler 5 cristaux. Appliquez l’effet de Sid Ombrenuit seulement sur les adversaires pouvant payer. Faites avancer votre pion du sorcier d’autant de cases que de cristaux volés.
+Si un joueur ne possède plus de cristal, Sid Ombrenuit ne peut pas lui voler 5 cristaux. Appliquez l’effet de Sid Ombrenuit seulement sur les adversaires pouvant payer. 
+
+Faites avancer votre pion du sorcier d’autant de cases que de cristaux volés.
+
 Si un joueur possède moins de 5 cristaux, Sid Ombrenuit lui vole l’intégralité de ses cristaux. Le joueur recule son pion du sorcier sur la case zéro de la piste des cristaux et vous avancez votre pion du sorcier d’autant de cases que de cristaux volés sur cette même piste.";},
 {id="50";name="Âme damnée d’Onys";effet="Au moment où vous invoquez l’Âme damnée d’Onys, avancez votre pion du sorcier de 10 cases sur la piste des cristaux et recevez une énergie d’eau en provenance du stock. Placez cette énergie dans votre réserve.
+
 Seul le joueur qui invoque l’Âme damnée d’Onys reçoit 10 cristaux et une énergie d’eau.
+
 À tout moment lors de son tour, le joueur possédant l’Âme damnée d’Onys peut choisir de passer celle-ci au joueur situé à sa gauche en défaussant une énergie d’eau. L’Âme damnée d’Onys change donc de propriétaire. L’Âme damnée d’Onys peut changer plusieurs fois de propriétaire durant une même manche.
+
 À la fin de la manche, si un joueur possède l’Âme damnée d’Onys, il perd 3 cristaux.
+
 L’Âme damnée d’Onys possède des points de prestige négatifs.";}
 )
