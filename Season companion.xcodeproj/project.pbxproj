@@ -16,6 +16,7 @@
 		A8FBAD5A15A4C6530069258B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FBAD5815A4C6530069258B /* MainStoryboard.storyboard */; };
 		A8FBAD5D15A4C6530069258B /* HBSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBAD5C15A4C6530069258B /* HBSMasterViewController.m */; };
 		A8FBAD6015A4C6530069258B /* HBSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBAD5F15A4C6530069258B /* HBSDetailViewController.m */; };
+		A8FBAD6D15A4C97B0069258B /* seasons.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8FBAD6C15A4C97B0069258B /* seasons.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +24,18 @@
 		A8FBAD4615A4C6530069258B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8FBAD4815A4C6530069258B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8FBAD4A15A4C6530069258B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8FBAD4E15A4C6530069258B /* Season companion-Info.plist */ = {isa = PBXFileReference; path = "Season companion-Info.plist"; sourceTree = "<group>"; };
+		A8FBAD4E15A4C6530069258B /* Season companion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Season companion-Info.plist"; sourceTree = "<group>"; };
 		A8FBAD5015A4C6530069258B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8FBAD5215A4C6530069258B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8FBAD5415A4C6530069258B /* Season companion-Prefix.pch */ = {isa = PBXFileReference; path = "Season companion-Prefix.pch"; sourceTree = "<group>"; };
-		A8FBAD5515A4C6530069258B /* HBSAppDelegate.h */ = {isa = PBXFileReference; path = HBSAppDelegate.h; sourceTree = "<group>"; };
+		A8FBAD5415A4C6530069258B /* Season companion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Season companion-Prefix.pch"; sourceTree = "<group>"; };
+		A8FBAD5515A4C6530069258B /* HBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSAppDelegate.h; sourceTree = "<group>"; };
 		A8FBAD5615A4C6530069258B /* HBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSAppDelegate.m; sourceTree = "<group>"; };
 		A8FBAD5915A4C6530069258B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A8FBAD5B15A4C6530069258B /* HBSMasterViewController.h */ = {isa = PBXFileReference; path = HBSMasterViewController.h; sourceTree = "<group>"; };
+		A8FBAD5B15A4C6530069258B /* HBSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSMasterViewController.h; sourceTree = "<group>"; };
 		A8FBAD5C15A4C6530069258B /* HBSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSMasterViewController.m; sourceTree = "<group>"; };
-		A8FBAD5E15A4C6530069258B /* HBSDetailViewController.h */ = {isa = PBXFileReference; path = HBSDetailViewController.h; sourceTree = "<group>"; };
+		A8FBAD5E15A4C6530069258B /* HBSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSDetailViewController.h; sourceTree = "<group>"; };
 		A8FBAD5F15A4C6530069258B /* HBSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSDetailViewController.m; sourceTree = "<group>"; };
+		A8FBAD6C15A4C97B0069258B /* seasons.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = seasons.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		A8FBAD4C15A4C6530069258B /* Season companion */ = {
 			isa = PBXGroup;
 			children = (
+				A8FBAD6C15A4C97B0069258B /* seasons.plist */,
 				A8FBAD5515A4C6530069258B /* HBSAppDelegate.h */,
 				A8FBAD5615A4C6530069258B /* HBSAppDelegate.m */,
 				A8FBAD5815A4C6530069258B /* MainStoryboard.storyboard */,
@@ -156,6 +159,7 @@
 			files = (
 				A8FBAD5115A4C6530069258B /* InfoPlist.strings in Resources */,
 				A8FBAD5A15A4C6530069258B /* MainStoryboard.storyboard in Resources */,
+				A8FBAD6D15A4C97B0069258B /* seasons.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,7 @@
 
 @interface HBSMasterViewController : UITableViewController
 
+
+-(void)lireDonnees;
+
 @end
