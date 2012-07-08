@@ -16,4 +16,10 @@
 @property (strong,nonatomic)    IBOutlet UIImageView    *cardImageView;
 @property (strong,nonatomic)    IBOutlet UILabel        *cardNumberLabel;
 
+- (IBAction)swipeGestureHandler:(UISwipeGestureRecognizer *)sender;
+- (IBAction)swipeGestureHandlerUP:(UISwipeGestureRecognizer *)sender;
+
+
+- (void)envoiDictionnaire:(NSMutableArray*)dico withIndexPath:(NSIndexPath*)indexpath;
+
 @end

@@ -116,8 +116,9 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDictionary *object = [_objects objectAtIndex:indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+//        NSDictionary *object = [_objects objectAtIndex:indexPath.row];
+//        [[segue destinationViewController] setDetailItem:object];
+        [[segue destinationViewController] envoiDictionnaire:_objects withIndexPath:indexPath];
     }
 }
 

@@ -9,15 +9,21 @@
 #import "HBSDetailViewController.h"
 
 @interface HBSDetailViewController ()
+
 - (void)configureView;
+
 @end
 
-@implementation HBSDetailViewController
+@implementation HBSDetailViewController{
+    NSMutableArray *_dico;
+    NSInteger row;
+}
 
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
 @synthesize cardImageView = _cardImageView;
 @synthesize cardNumberLabel = _cardNumberLabel;
+
 
 #pragma mark - Managing the detail item
 
@@ -29,6 +35,45 @@
         // Update the view.
         [self configureView];
     }
+}
+
+#pragma mark - swipe gestures recognizer
+- (IBAction)swipeGestureHandler:(UISwipeGestureRecognizer *)sender {
+    if(sender.state == UIGestureRecognizerStateEnded){
+        NSLog(@"Swipe Down Gesture Ended");
+        if(row +1 > (_dico.count-1))
+            row = 0;
+        else {
+            row++;
+        }
+        _detailItem = [_dico objectAtIndex:row];
+        [self configureView];
+    }
+    else if(sender.state == UIGestureRecognizerStateBegan){
+        NSLog(@"Swipe Down Gesture Began");
+    }
+}
+- (IBAction)swipeGestureHandlerUP:(UISwipeGestureRecognizer *)sender {
+    if(sender.state == UIGestureRecognizerStateEnded){
+        NSLog(@"Swipe UP Gesture Ended");
+        if(row-1<0)
+            row = _dico.count-1;
+        else {
+            row--;
+        }
+        _detailItem = [_dico objectAtIndex:row];
+        [self configureView];
+    }
+    else if(sender.state == UIGestureRecognizerStateBegan){
+        NSLog(@"Swipe UP Gesture Began");
+    }
+}
+
+-(void)envoiDictionnaire:(NSMutableArray *)dico withIndexPath:(NSIndexPath *)indexpath{
+    row = indexpath.row;
+    _dico = dico;
+    _detailItem = [_dico objectAtIndex:row];
+    [self configureView];
 }
 
 - (void)configureView

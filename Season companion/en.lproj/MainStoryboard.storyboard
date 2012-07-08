@@ -95,6 +95,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="zgh-xe-Moh" appends="YES" id="yEs-dH-M6a"/>
+                            <outletCollection property="gestureRecognizers" destination="7qU-yi-wch" appends="YES" id="HCf-C9-b4n"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="26"/>
                     <connections>
@@ -103,6 +108,16 @@
                         <outlet property="detailDescriptionLabel" destination="lSP-sI-Zac" id="1tf-Wz-jyH"/>
                     </connections>
                 </viewController>
+                <swipeGestureRecognizer direction="down" id="zgh-xe-Moh">
+                    <connections>
+                        <action selector="swipeGestureHandler:" destination="21" id="f4G-RT-pem"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="7qU-yi-wch">
+                    <connections>
+                        <action selector="swipeGestureHandlerUP:" destination="21" id="WBz-Qm-jpe"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="902" y="64"/>
         </scene>
@@ -111,6 +126,8 @@
         <class className="HBSDetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HBSDetailViewController.h"/>
             <relationships>
+                <relationship kind="action" name="swipeGestureHandler:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="action" name="swipeGestureHandlerUP:" candidateClass="UISwipeGestureRecognizer"/>
                 <relationship kind="outlet" name="cardImageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="cardNumberLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UITextView"/>
