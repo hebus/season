@@ -38,7 +38,7 @@
 }
 
 #pragma mark - swipe gestures recognizer
-- (IBAction)swipeGestureHandler:(UISwipeGestureRecognizer *)sender {
+- (IBAction)swipeGestureHandlerUP:(UISwipeGestureRecognizer *)sender {
     if(sender.state == UIGestureRecognizerStateEnded){
         NSLog(@"Swipe Down Gesture Ended");
         if(row +1 > (_dico.count-1))
@@ -53,7 +53,7 @@
         NSLog(@"Swipe Down Gesture Began");
     }
 }
-- (IBAction)swipeGestureHandlerUP:(UISwipeGestureRecognizer *)sender {
+- (IBAction)swipeGestureHandler:(UISwipeGestureRecognizer *)sender {
     if(sender.state == UIGestureRecognizerStateEnded){
         NSLog(@"Swipe UP Gesture Ended");
         if(row-1<0)
