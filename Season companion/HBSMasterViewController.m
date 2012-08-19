@@ -33,6 +33,7 @@
 //    self.navigationItem.rightBarButtonItem = addButton;
     
     [self lireDonnees];
+    self.filteredArray = [NSMutableArray arrayWithCapacity:[_objects count]];
 }
 
 - (void)viewDidUnload
@@ -56,6 +57,32 @@
 //    [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 //}
 
+#pragma mark Content Filtering
+-(void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope {
+    // Update the filtered array based on the search text and scope.
+    // Remove all objects from the filtered search array
+    [self.filteredArray removeAllObjects];
+    // Filter the array using NSPredicate
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF.name contains[c] %@",searchText];
+    self.filteredArray = [NSMutableArray arrayWithArray:[_objects filteredArrayUsingPredicate:predicate]];
+}
+#pragma mark - UISearchDisplayController Delegate Methods
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString {
+    // Tells the table data source to reload when text changes
+    [self filterContentForSearchText:searchString scope:
+     [[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:[self.searchDisplayController.searchBar selectedScopeButtonIndex]]];
+    // Return YES to cause the search result table view to be reloaded.
+    return YES;
+}
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption {
+    // Tells the table data source to reload when scope bar selection changes
+    [self filterContentForSearchText:self.searchDisplayController.searchBar.text scope:
+     [[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
+    // Return YES to cause the search result table view to be reloaded.
+    return YES;
+}
+
 #pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -65,14 +92,29 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    // Check to see whether the normal table or search results table is being displayed and return the count from the appropriate array
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+        return [self.filteredArray count];
+    } else {
+        return [_objects count];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSDictionary *object;
+    // Check to see whether the normal table or search results table is being displayed and set the Candy object from the appropriate array
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+        object = [self.filteredArray objectAtIndex:indexPath.row];
+    } else {
+        object = [_objects objectAtIndex:indexPath.row];
+    }
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-
-    NSDictionary *object = [_objects objectAtIndex:indexPath.row];
+    if ( cell == nil ) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    }
+//    NSDictionary *object = [_objects objectAtIndex:indexPath.row];
     cell.textLabel.text = [object objectForKey:@"name"];
     cell.detailTextLabel.text = [[object objectForKey:@"id"] stringByAppendingString:@" / 50"] ;
     NSString *path = [[object objectForKey:@"id"] stringByAppendingString:@".png"];
@@ -112,13 +154,28 @@
 }
 */
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if([tableView isEqual:self.searchDisplayController.searchResultsTableView])
+        [self performSegueWithIdentifier:@"showDetail" sender:tableView];
+}
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        // In order to manipulate the destination view controller, another check on which table (search or normal) is displayed is needed
+        if(sender == self.searchDisplayController.searchResultsTableView) {
+            NSIndexPath *indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
+            [[segue destinationViewController] envoiDictionnaire:_filteredArray withIndexPath:indexPath];
+        }
+        else {
+            NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+            [[segue destinationViewController] envoiDictionnaire:_objects withIndexPath:indexPath];
+        }
+//        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
 //        NSDictionary *object = [_objects objectAtIndex:indexPath.row];
 //        [[segue destinationViewController] setDetailItem:object];
-        [[segue destinationViewController] envoiDictionnaire:_objects withIndexPath:indexPath];
+//        [[segue destinationViewController] envoiDictionnaire:_objects withIndexPath:indexPath];
     }
 }
 

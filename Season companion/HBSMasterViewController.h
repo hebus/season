@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBSMasterViewController : UITableViewController
+@interface HBSMasterViewController : UITableViewController <UISearchBarDelegate, UISearchDisplayDelegate>
 
+@property IBOutlet UISearchBar *seasonSearchBar;
+@property (strong,nonatomic) NSMutableArray *filteredArray;
 
 -(void)lireDonnees;
 
