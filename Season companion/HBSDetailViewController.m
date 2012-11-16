@@ -85,8 +85,8 @@
         self.detailDescriptionLabel.text = [self.detailItem objectForKey:@"effet"];
         self.cardNumberLabel.text = [[self.detailItem objectForKey:@"id"] stringByAppendingString:@" / 50"];
 //        NSString *path = [[_detailItem objectForKey:@"id"] stringByAppendingString:@".png"];
-        NSString *filename = [[NSBundle mainBundle] pathForResource:@"1.png" ofType:@"png" inDirectory:@"bigcards"];
-        self.cardImageView.image = [UIImage imageNamed:filename];
+        NSString *filename = [[NSBundle mainBundle] pathForResource:[_detailItem objectForKey:@"id"] ofType:@"png" inDirectory:@"bigcards"];
+        self.cardImageView.image = [UIImage imageWithContentsOfFile:filename];
     }
 }
 
