@@ -13,7 +13,7 @@ Si vous possédez une Bourse d’Io, recevez 16 cristaux au lieu de 12 à chaque
 {id="6";name="Bâton du printemps";effet="À chaque fois que vous invoquez une carte pouvoir, avancez votre pion du sorcier de 3 cases sur la piste des cristaux.";},
 {id="7";name="Bottes temporelles";effet="Les Bottes temporelles n’ont pas de coût d’invocation et peuvent donc être invoquées gratuitement.
 
-		Au moment où vous invoquez les Bottes temporelles, avancez ou reculez d’une à trois cases le marqueur saison sur la roue des saisons.
+Au moment où vous invoquez les Bottes temporelles, avancez ou reculez d’une à trois cases le marqueur saison sur la roue des saisons.
 
 Si les Bottes temporelles font reculer le marqueur saison de l’hiver à l’automne :
 - reculez le marqueur année d’une case.
@@ -29,7 +29,7 @@ L’effet de la Bourse d’Io affecte les effets de la Balance d’Ishtar et de 
 À l’inverse, l’effet de la Bourse d’Io n’a aucun impact sur l’effet du Chaudron glouton et du Crâne de dragon.";},
 {id="9";name="Calice divin";effet="Au moment où vous invoquez le Calice divin, piochez 4 cartes pouvoir et invoquez-en une gratuitement, sans payer son coût d’invocation. 
 
-Cette carte pouvoir ainsi invoquée ne déclenche pas l’effet de l’Arcano Sangsue, du Bâton du printemps et du Vase oublié d’Yjang. Placez les 3 cartes restantes dans la défausse.
+Cette carte pouvoir ainsi invoquée ne déclenche pas l’effet de l’Arcano Sangsue, du Bâton du printemps et du Vase oublié d’Yjang.Placez les 3 cartes restantes dans la défausse.
 
 Vous devez posséder une jauge d’invocation suffisante pour pouvoir invoquer cette nouvelle carte. Dans le cas contraire, la carte piochée est défaussée.";},
 {id="10";name="Syllas le fidèle";effet="Au moment où vous invoquez Syllas le fidèle, chaque adversaire doit sacrifier une carte pouvoir en jeu qu’il possède.";},
@@ -46,7 +46,7 @@ Un adversaire n’ayant aucun cristal n’est pas concerné par l’effet de Fig
 L’effet du Coffret merveilleux prend en compte les énergies placées sur le Grimoire ensorcelé qui font partie de votre réserve. A l’inverse, les énergies présentes sur l’Amulette d’eau ou le Chaudron glouton ne font pas partie de votre réserve et n’affectent donc pas le Coffret merveilleux.";},
 {id="14";name="Corne du mendiant";effet="À chaque fois que vous possédez 1 énergie ou moins dans votre réserve à la fin de la manche, recevez 1 énergie de votre choix en provenance du stock et placez-la dans votre réserve.
 
-L’effet de la Corne du mendiant prend en compte les énergies placées sur le Grimoire ensorcelé, qui font partie de votre réserve. À l’inverse, les énergies présentes sur l’Amulette d’eau ou le Chaudron glouton ne font pas partie de votre réserve et n’affectent pas la Corne du mendiant.";},
+L’effet de la Corne du mendiant prend en compte les énergies placées sur le Grimoire ensorcelé, qui font partie de votre réserve.À l’inverse, les énergies présentes sur l’Amulette d’eau ou le Chaudron glouton ne font pas partie de votre réserve et n’affectent pas la Corne du mendiant.";},
 {id="15";name="Dé de la malice";effet="Le Dé de la malice n’a pas de coût d’invocation et peut donc être invoqué gratuitement.
 
 À chaque fois que vous activez le Dé de la malice, relancez le dé des saisons que vous avez choisi et ce, avant d’avoir effectué ses actions. Ne prenez en compte que le nouveau dé pour effectuer vos actions du tour.
