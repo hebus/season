@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MHFacebookImageViewer.h"
 
 @interface HBSDetailViewController : UIViewController
 

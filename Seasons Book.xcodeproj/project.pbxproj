@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D3799F17A938F0003D31F5 /* MHFacebookImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D3799B17A938F0003D31F5 /* MHFacebookImageViewer.m */; };
+		A8D379A017A938F0003D31F5 /* Done.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D3799D17A938F0003D31F5 /* Done.png */; };
+		A8D379A117A938F0003D31F5 /* Done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D3799E17A938F0003D31F5 /* Done@2x.png */; };
+		A8D379B817A93962003D31F5 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379A617A93962003D31F5 /* AFHTTPClient.m */; };
+		A8D379B917A93962003D31F5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379A817A93962003D31F5 /* AFHTTPRequestOperation.m */; };
+		A8D379BA17A93962003D31F5 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379AA17A93962003D31F5 /* AFImageRequestOperation.m */; };
+		A8D379BB17A93962003D31F5 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379AC17A93962003D31F5 /* AFJSONRequestOperation.m */; };
+		A8D379BC17A93962003D31F5 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379AE17A93962003D31F5 /* AFNetworkActivityIndicatorManager.m */; };
+		A8D379BD17A93962003D31F5 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379B117A93962003D31F5 /* AFPropertyListRequestOperation.m */; };
+		A8D379BE17A93962003D31F5 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379B317A93962003D31F5 /* AFURLConnectionOperation.m */; };
+		A8D379BF17A93962003D31F5 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379B517A93962003D31F5 /* AFXMLRequestOperation.m */; };
+		A8D379C017A93962003D31F5 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D379B717A93962003D31F5 /* UIImageView+AFNetworking.m */; };
+		A8D379C217A93E13003D31F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D379C117A93E13003D31F5 /* Default.png */; };
+		A8D379C417A93E17003D31F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D379C317A93E17003D31F5 /* Default@2x.png */; };
+		A8D379C617A94415003D31F5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D379C517A94415003D31F5 /* icon@2x.png */; };
+		A8D379C817A9448F003D31F5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D379C717A9448F003D31F5 /* icon.png */; };
+		A8FBAD4715A4C6530069258B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FBAD4615A4C6530069258B /* UIKit.framework */; };
+		A8FBAD4915A4C6530069258B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FBAD4815A4C6530069258B /* Foundation.framework */; };
+		A8FBAD4B15A4C6530069258B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FBAD4A15A4C6530069258B /* CoreGraphics.framework */; };
+		A8FBAD5115A4C6530069258B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8FBAD4F15A4C6530069258B /* InfoPlist.strings */; };
+		A8FBAD5315A4C6530069258B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBAD5215A4C6530069258B /* main.m */; };
+		A8FBAD5715A4C6530069258B /* HBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBAD5615A4C6530069258B /* HBSAppDelegate.m */; };
+		A8FBAD5A15A4C6530069258B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FBAD5815A4C6530069258B /* MainStoryboard.storyboard */; };
+		A8FBAD5D15A4C6530069258B /* HBSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBAD5C15A4C6530069258B /* HBSMasterViewController.m */; };
+		A8FBAD6015A4C6530069258B /* HBSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBAD5F15A4C6530069258B /* HBSDetailViewController.m */; };
+		A8FBAD6D15A4C97B0069258B /* seasons.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8FBAD6C15A4C97B0069258B /* seasons.plist */; };
+		EBBB40241656710E00C58304 /* bigcards in Resources */ = {isa = PBXBuildFile; fileRef = EBBB40221656710E00C58304 /* bigcards */; };
+		EBBB40251656710E00C58304 /* cards in Resources */ = {isa = PBXBuildFile; fileRef = EBBB40231656710E00C58304 /* cards */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8D3799A17A938F0003D31F5 /* MHFacebookImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFacebookImageViewer.h; sourceTree = "<group>"; };
+		A8D3799B17A938F0003D31F5 /* MHFacebookImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFacebookImageViewer.m; sourceTree = "<group>"; };
+		A8D3799D17A938F0003D31F5 /* Done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done.png; sourceTree = "<group>"; };
+		A8D3799E17A938F0003D31F5 /* Done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Done@2x.png"; sourceTree = "<group>"; };
+		A8D379A517A93962003D31F5 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A8D379A617A93962003D31F5 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A8D379A717A93962003D31F5 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A8D379A817A93962003D31F5 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A8D379A917A93962003D31F5 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A8D379AA17A93962003D31F5 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A8D379AB17A93962003D31F5 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A8D379AC17A93962003D31F5 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A8D379AD17A93962003D31F5 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A8D379AE17A93962003D31F5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A8D379AF17A93962003D31F5 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A8D379B017A93962003D31F5 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A8D379B117A93962003D31F5 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A8D379B217A93962003D31F5 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A8D379B317A93962003D31F5 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A8D379B417A93962003D31F5 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A8D379B517A93962003D31F5 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A8D379B617A93962003D31F5 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A8D379B717A93962003D31F5 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A8D379C117A93E13003D31F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A8D379C317A93E17003D31F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A8D379C517A94415003D31F5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A8D379C717A9448F003D31F5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A8FBAD4215A4C6530069258B /* Seasons Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seasons Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FBAD4615A4C6530069258B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8FBAD4815A4C6530069258B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8FBAD4A15A4C6530069258B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8FBAD4E15A4C6530069258B /* Seasons Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seasons Book-Info.plist"; sourceTree = "<group>"; };
+		A8FBAD5015A4C6530069258B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8FBAD5215A4C6530069258B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8FBAD5415A4C6530069258B /* Seasons Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seasons Book-Prefix.pch"; sourceTree = "<group>"; };
+		A8FBAD5515A4C6530069258B /* HBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSAppDelegate.h; sourceTree = "<group>"; };
+		A8FBAD5615A4C6530069258B /* HBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSAppDelegate.m; sourceTree = "<group>"; };
+		A8FBAD5915A4C6530069258B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A8FBAD5B15A4C6530069258B /* HBSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSMasterViewController.h; sourceTree = "<group>"; };
+		A8FBAD5C15A4C6530069258B /* HBSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSMasterViewController.m; sourceTree = "<group>"; };
+		A8FBAD5E15A4C6530069258B /* HBSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSDetailViewController.h; sourceTree = "<group>"; };
+		A8FBAD5F15A4C6530069258B /* HBSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSDetailViewController.m; sourceTree = "<group>"; };
+		A8FBAD6C15A4C97B0069258B /* seasons.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = seasons.plist; sourceTree = "<group>"; };
+		EBBB40221656710E00C58304 /* bigcards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bigcards; sourceTree = "<group>"; };
+		EBBB40231656710E00C58304 /* cards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cards; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8FBAD3F15A4C6530069258B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FBAD4715A4C6530069258B /* UIKit.framework in Frameworks */,
+				A8FBAD4915A4C6530069258B /* Foundation.framework in Frameworks */,
+				A8FBAD4B15A4C6530069258B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D3799917A938F0003D31F5 /* MHFBImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3799A17A938F0003D31F5 /* MHFacebookImageViewer.h */,
+				A8D3799B17A938F0003D31F5 /* MHFacebookImageViewer.m */,
+				A8D3799C17A938F0003D31F5 /* Resources */,
+			);
+			path = MHFBImageViewController;
+			sourceTree = "<group>";
+		};
+		A8D3799C17A938F0003D31F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3799D17A938F0003D31F5 /* Done.png */,
+				A8D3799E17A938F0003D31F5 /* Done@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8D379A417A93962003D31F5 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A8D379A517A93962003D31F5 /* AFHTTPClient.h */,
+				A8D379A617A93962003D31F5 /* AFHTTPClient.m */,
+				A8D379A717A93962003D31F5 /* AFHTTPRequestOperation.h */,
+				A8D379A817A93962003D31F5 /* AFHTTPRequestOperation.m */,
+				A8D379A917A93962003D31F5 /* AFImageRequestOperation.h */,
+				A8D379AA17A93962003D31F5 /* AFImageRequestOperation.m */,
+				A8D379AB17A93962003D31F5 /* AFJSONRequestOperation.h */,
+				A8D379AC17A93962003D31F5 /* AFJSONRequestOperation.m */,
+				A8D379AD17A93962003D31F5 /* AFNetworkActivityIndicatorManager.h */,
+				A8D379AE17A93962003D31F5 /* AFNetworkActivityIndicatorManager.m */,
+				A8D379AF17A93962003D31F5 /* AFNetworking.h */,
+				A8D379B017A93962003D31F5 /* AFPropertyListRequestOperation.h */,
+				A8D379B117A93962003D31F5 /* AFPropertyListRequestOperation.m */,
+				A8D379B217A93962003D31F5 /* AFURLConnectionOperation.h */,
+				A8D379B317A93962003D31F5 /* AFURLConnectionOperation.m */,
+				A8D379B417A93962003D31F5 /* AFXMLRequestOperation.h */,
+				A8D379B517A93962003D31F5 /* AFXMLRequestOperation.m */,
+				A8D379B617A93962003D31F5 /* UIImageView+AFNetworking.h */,
+				A8D379B717A93962003D31F5 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A8FBAD3715A4C6530069258B = {
+			isa = PBXGroup;
+			children = (
+				A8D379C717A9448F003D31F5 /* icon.png */,
+				A8D379C517A94415003D31F5 /* icon@2x.png */,
+				A8D379C317A93E17003D31F5 /* Default@2x.png */,
+				A8D379C117A93E13003D31F5 /* Default.png */,
+				A8FBAD4C15A4C6530069258B /* Seasons */,
+				A8FBAD4515A4C6530069258B /* Frameworks */,
+				A8FBAD4315A4C6530069258B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8FBAD4315A4C6530069258B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBAD4215A4C6530069258B /* Seasons Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FBAD4515A4C6530069258B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBAD4615A4C6530069258B /* UIKit.framework */,
+				A8FBAD4815A4C6530069258B /* Foundation.framework */,
+				A8FBAD4A15A4C6530069258B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8FBAD4C15A4C6530069258B /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				A8D379A417A93962003D31F5 /* AFNetworking */,
+				A8D3799917A938F0003D31F5 /* MHFBImageViewController */,
+				EBBB40221656710E00C58304 /* bigcards */,
+				EBBB40231656710E00C58304 /* cards */,
+				A8FBAD6C15A4C97B0069258B /* seasons.plist */,
+				A8FBAD5515A4C6530069258B /* HBSAppDelegate.h */,
+				A8FBAD5615A4C6530069258B /* HBSAppDelegate.m */,
+				A8FBAD5815A4C6530069258B /* MainStoryboard.storyboard */,
+				A8FBAD5B15A4C6530069258B /* HBSMasterViewController.h */,
+				A8FBAD5C15A4C6530069258B /* HBSMasterViewController.m */,
+				A8FBAD5E15A4C6530069258B /* HBSDetailViewController.h */,
+				A8FBAD5F15A4C6530069258B /* HBSDetailViewController.m */,
+				A8FBAD4D15A4C6530069258B /* Supporting Files */,
+			);
+			name = Seasons;
+			path = "Season companion";
+			sourceTree = "<group>";
+		};
+		A8FBAD4D15A4C6530069258B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBAD4E15A4C6530069258B /* Seasons Book-Info.plist */,
+				A8FBAD4F15A4C6530069258B /* InfoPlist.strings */,
+				A8FBAD5215A4C6530069258B /* main.m */,
+				A8FBAD5415A4C6530069258B /* Seasons Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8FBAD4115A4C6530069258B /* Seasons Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FBAD6315A4C6530069258B /* Build configuration list for PBXNativeTarget "Seasons Book" */;
+			buildPhases = (
+				A8FBAD3E15A4C6530069258B /* Sources */,
+				A8FBAD3F15A4C6530069258B /* Frameworks */,
+				A8FBAD4015A4C6530069258B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seasons Book";
+			productName = "Season companion";
+			productReference = A8FBAD4215A4C6530069258B /* Seasons Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8FBAD3915A4C6530069258B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HBS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A8FBAD3C15A4C6530069258B /* Build configuration list for PBXProject "Seasons Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8FBAD3715A4C6530069258B;
+			productRefGroup = A8FBAD4315A4C6530069258B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FBAD4115A4C6530069258B /* Seasons Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FBAD4015A4C6530069258B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FBAD5115A4C6530069258B /* InfoPlist.strings in Resources */,
+				A8FBAD5A15A4C6530069258B /* MainStoryboard.storyboard in Resources */,
+				A8FBAD6D15A4C97B0069258B /* seasons.plist in Resources */,
+				EBBB40241656710E00C58304 /* bigcards in Resources */,
+				EBBB40251656710E00C58304 /* cards in Resources */,
+				A8D379A017A938F0003D31F5 /* Done.png in Resources */,
+				A8D379A117A938F0003D31F5 /* Done@2x.png in Resources */,
+				A8D379C217A93E13003D31F5 /* Default.png in Resources */,
+				A8D379C417A93E17003D31F5 /* Default@2x.png in Resources */,
+				A8D379C617A94415003D31F5 /* icon@2x.png in Resources */,
+				A8D379C817A9448F003D31F5 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8FBAD3E15A4C6530069258B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FBAD5315A4C6530069258B /* main.m in Sources */,
+				A8FBAD5715A4C6530069258B /* HBSAppDelegate.m in Sources */,
+				A8FBAD5D15A4C6530069258B /* HBSMasterViewController.m in Sources */,
+				A8FBAD6015A4C6530069258B /* HBSDetailViewController.m in Sources */,
+				A8D3799F17A938F0003D31F5 /* MHFacebookImageViewer.m in Sources */,
+				A8D379B817A93962003D31F5 /* AFHTTPClient.m in Sources */,
+				A8D379B917A93962003D31F5 /* AFHTTPRequestOperation.m in Sources */,
+				A8D379BA17A93962003D31F5 /* AFImageRequestOperation.m in Sources */,
+				A8D379BB17A93962003D31F5 /* AFJSONRequestOperation.m in Sources */,
+				A8D379BC17A93962003D31F5 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A8D379BD17A93962003D31F5 /* AFPropertyListRequestOperation.m in Sources */,
+				A8D379BE17A93962003D31F5 /* AFURLConnectionOperation.m in Sources */,
+				A8D379BF17A93962003D31F5 /* AFXMLRequestOperation.m in Sources */,
+				A8D379C017A93962003D31F5 /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8FBAD4F15A4C6530069258B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FBAD5015A4C6530069258B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8FBAD5815A4C6530069258B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FBAD5915A4C6530069258B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8FBAD6115A4C6530069258B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8FBAD6215A4C6530069258B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8FBAD6415A4C6530069258B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Season companion/Seasons Book-Prefix.pch";
+				INFOPLIST_FILE = "Season companion/Seasons Book-Info.plist";
+				PRODUCT_NAME = "Seasons Book";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8FBAD6515A4C6530069258B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Season companion/Seasons Book-Prefix.pch";
+				INFOPLIST_FILE = "Season companion/Seasons Book-Info.plist";
+				PRODUCT_NAME = "Seasons Book";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8FBAD3C15A4C6530069258B /* Build configuration list for PBXProject "Seasons Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FBAD6115A4C6530069258B /* Debug */,
+				A8FBAD6215A4C6530069258B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FBAD6315A4C6530069258B /* Build configuration list for PBXNativeTarget "Seasons Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FBAD6415A4C6530069258B /* Debug */,
+				A8FBAD6515A4C6530069258B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8FBAD3915A4C6530069258B /* Project object */;
+}

@@ -87,6 +87,9 @@
 //        NSString *path = [[_detailItem objectForKey:@"id"] stringByAppendingString:@".png"];
         NSString *filename = [[NSBundle mainBundle] pathForResource:[_detailItem objectForKey:@"id"] ofType:@"png" inDirectory:@"bigcards"];
         self.cardImageView.image = [UIImage imageWithContentsOfFile:filename];
+        self.cardImageView.contentMode = UIViewContentModeScaleAspectFill;
+        [self.cardImageView setupImageViewer];
+        self.cardImageView.clipsToBounds = YES;
     }
 }
 
